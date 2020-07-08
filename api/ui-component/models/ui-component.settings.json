@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_components",
+  "info": {
+    "name": "UI Component"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "componentId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "contentJson": {
+      "type": "json"
+    }
+  }
+}
