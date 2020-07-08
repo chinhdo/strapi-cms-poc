@@ -16,6 +16,9 @@
     },
     "contentJson": {
       "type": "json"
+    },
+    "test": {
+      "type": "integer"
     }
   }
 }
