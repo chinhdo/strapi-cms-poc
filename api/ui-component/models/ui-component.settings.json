@@ -17,8 +17,9 @@
     "contentJson": {
       "type": "json"
     },
-    "test": {
-      "type": "integer"
+    "comments": {
+      "type": "richtext",
+      "private": true
     }
   }
 }

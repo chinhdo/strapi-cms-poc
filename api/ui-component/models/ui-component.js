@@ -5,4 +5,16 @@
  * to customize this model
  */
 
-module.exports = {};
+module.exports = {
+  /**
+ * Triggered before creation.
+ */
+  lifecycles: {
+    async beforeCreate(data) {
+      console.log('Component created', data);
+    },
+    async afterUpdate(data) {
+      console.log('Component updated', data);
+    }
+  },
+};
